@@ -26,11 +26,21 @@
         
         header {
             text-align: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 30%, #dc2626 50%, #1e40af 70%, #1e3a8a 100%);
+            background-size: 300% 300%;
+            animation: patrioticFlow 8s ease-in-out infinite;
             color: white;
             padding: 40px 20px;
             margin: -20px -20px 40px -20px;
             border-radius: 0 0 20px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        
+        @keyframes patrioticFlow {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
         }
         
         h1 {
@@ -41,8 +51,15 @@
         
         .subtitle {
             font-size: 1.2em;
-            opacity: 0.9;
-            font-weight: 300;
+            color: #f8f9fa;
+            font-weight: 400;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            background: rgba(255,255,255,0.1);
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
         }
         
         .support-section {
@@ -146,9 +163,11 @@
 <body>
     <div class="container">
         <header>
+            <div class="flag">🇺🇸</div>
             <h1>US Citizenship Test 2025</h1>
             <p class="subtitle">Complete Preparation Guide - Support Center</p>
         </header>
+
         <div class="support-section">
             <h2>Download Our App</h2>
             <div style="display: flex; align-items: center; justify-content: center; gap: 30px; flex-wrap: wrap; text-align: center;">
@@ -165,9 +184,10 @@
                 </div>
             </div>
         </div>
+
         <div class="support-section">
             <h2>About This App</h2>
-            <p>US Citizenship Test Study Guide 2025 is the most comprehensive study app for the U.S. naturalization exam. Our app contains all 100 official USCIS civics questions, interactive flashcards, practice tests, and audio support to help you pass your citizenship test with confidence.</p>
+            <p>US Citizenship Test 2025 is the most comprehensive study app for the U.S. naturalization exam. Our app contains all 100 official USCIS civics questions, interactive flashcards, practice tests, and audio support to help you pass your citizenship test with confidence.</p>
             
             <div class="features-grid">
                 <div class="feature-item">
@@ -187,10 +207,10 @@
                     <p>Customized questions for your state's representatives</p>
                 </div>
             </div>
+            
             <div style="text-align: center; margin-top: 30px;">
-                     <a href="help.htm" style="display: inline-block; background: #667eea; color: white; padding: 12px 24px; 
-                         text-decoration: none; border-radius: 8px; font-weight: 600; transition: background 0.3s;">📖 View Complete Help Guide</a>
-             </div>
+                <a href="help.htm" style="display: inline-block; background: #667eea; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; transition: background 0.3s;">📖 View Complete Help Guide</a>
+            </div>
         </div>
 
         <div class="support-section">
@@ -246,7 +266,7 @@
             <h2>Contact Support</h2>
             <div class="contact-info">
                 <p>Need help? Have a question? We're here to assist you on your path to U.S. citizenship.</p>
-                <p><strong>Email:</strong> <a href="mailto:app@cce3d.com" class="email-link">app@cce3d.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:support@uscitizenshiptestapp.com" class="email-link">support@uscitizenshiptestapp.com</a></p>
                 <p><strong>Response Time:</strong> We typically respond within 24-48 hours</p>
                 <p>When contacting support, please include:</p>
                 <ul>
@@ -287,7 +307,7 @@
         <div class="version-info">
             <p>US Citizenship Test 2025 - Version 1.0</p>
             <p>Updated for 2025 • Compatible with iOS 14.0 and later</p>
-            <p>Good luck on your journey to U.S. citizenship!</p>
+            <p>Good luck on your journey to U.S. citizenship! 🇺🇸</p>
         </div>
     </div>
 </body>
