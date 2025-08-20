@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #f5f5f5;">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Civics Cards - Help</title>
+<script>
+// Prevent flash by setting background immediately
+(function() {
+  var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (isDark) {
+    document.documentElement.style.backgroundColor = '#1c1c1e';
+  }
+})();
+</script>
+<style>
+  :root { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color-scheme: light dark;
+  }
+  
+  /* Light mode (default) */
+  body { 
+    margin: 0.5rem; 
+    line-height: 1.6; 
+    background-color: #f5f5f5;
+    color: #333;
+    touch-action: pan-y;
+    min-height: 100vh;
+  }
+  
+  .help-container { 
+    background: white; 
+    border-radius: 12px; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .help-title { 
+    font-size: 1.8rem; 
+    font-weight: 700; 
+    margin: 0 0 1.5rem 0; 
+    color: #007AFF;
+    text-align: center;
+  }
+  
+  .section-title { 
+    font-size: 1.3rem; 
+    font-weight: 600; 
+    margin: 2rem 0 1rem 0; 
+    color: #333;
+    border-bottom: 2px solid #007AFF;
+    padding-bottom: 0.5rem;
+  }
+  
+  .subsection-title { 
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    margin: 1.5rem 0 0.75rem 0; 
+    color: #555;
+  }
+  
+  p { 
+    font-size: 1rem; 
+    margin: 0.75rem 0; 
+    color: #333;
+  }
+  
+  ul, ol { 
+    margin: 0.75rem 0; 
+    padding-left: 1.5rem;
+  }
+  
+  li { 
+    font-size: 1rem; 
+    margin: 0.5rem 0; 
+    color: #333;
+  }
+  
+  .feature-highlight {
+    background: #e8f4fd;
+    border-left: 4px solid #007AFF;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+  
+  .tip {
+    background: #f0f9ff;
+    border: 1px solid #007AFF;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .tip-title {
+    font-weight: 600;
+    color: #007AFF;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+    body { 
+      background-color: #1c1c1e;
+      color: #ffffff;
+    }
+    
+    .help-container { 
+      background: #2c2c2e; 
+      color: #ffffff;
+    }
+    
+    .help-title { 
+      color: #0A84FF;
+    }
+    
+    .section-title { 
+      color: #ffffff;
+      border-bottom-color: #0A84FF;
+    }
+    
+    .subsection-title { 
+      color: #e5e5e7;
+    }
+    
+    p, li { 
+      color: #ffffff;
+    }
+    
+    .feature-highlight {
+      background: #1a365d;
+      border-left-color: #0A84FF;
+      color: #ffffff;
+    }
+    
+    .tip {
+      background: #1a365d;
+      border-color: #0A84FF;
+    }
+    
+    .tip-title {
+      color: #0A84FF;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="help-container">
+  <h1 class="help-title">Civics Cards</h1>
+  <p style="text-align: center; font-size: 1.1rem; color: #666; margin-bottom: 2rem;">Complete Help Guide</p>
+</div>
+
+<div class="help-container">
+  <h2 class="section-title">Getting Started</h2>
+  
+  <p>Welcome to Civics Cards! This streamlined app helps you prepare for your U.S. citizenship test with interactive flash cards and personalized settings.</p>
+  
+  <div class="feature-highlight">
+    <strong>Key Features:</strong>
+    <ul>
+      <li>Interactive flash cards with all 100 civics questions</li>
+      <li>Built-in shuffle functionality for varied practice</li>
+      <li>Audio pronunciation for all questions</li>
+      <li>State-specific personalization always available</li>
+      <li>Large, responsive cards optimized for all screen sizes</li>
+    </ul>
+  </div>
+</div>
+
+<div class="help-container">
+  <h2 class="section-title">Flash Cards</h2>
+  
+  <p>Master all 100 civics questions with interactive flash cards designed for efficient studying on the go.</p>
+  
+  <h3 class="subsection-title">Using Flash Cards</h3>
+  <ol>
+    <li>Tap a card to flip it and reveal the answer</li>
+    <li>Swipe left or right to navigate between cards</li>
+    <li>Tap the shuffle button (top right corner) to randomize card order</li>
+    <li>Use the speaker button to hear audio pronunciation</li>
+    <li>Cards automatically resize to fit your screen perfectly</li>
+  </ol>
+  
+  <div class="feature-highlight">
+    <strong>Smart Features:</strong>
+    <ul>
+      <li><strong>Built-in Shuffle</strong> - Shuffle button integrated into each card</li>
+      <li><strong>Helpful Hints</strong> - Get tips on swiping and shuffling (shown first 3 times)</li>
+      <li><strong>Audio Support</strong> - Clear pronunciation for all questions and answers</li>
+      <li><strong>Responsive Design</strong> - Large cards that adapt to your device</li>
+      <li><strong>All 100 Questions</strong> - Complete official USCIS civics test content</li>
+    </ul>
+  </div>
+  
+  <div class="tip">
+    <div class="tip-title">Pro Tip</div>
+    Use the shuffle feature regularly to ensure you're not just memorizing the order. The hint system will guide you through the controls the first few times you use the app.
+  </div>
+</div>
+
+<div class="help-container">
+  <h2 class="section-title">Settings</h2>
+  
+  <p>Customize your learning experience and personalize content for your state.</p>
+  
+  <h3 class="subsection-title">State Related Answers</h3>
+  <p>Personalize your study experience with information specific to your state (always available in Civics Cards):</p>
+  <ul>
+    <li><strong>Governor</strong> - Set your current state governor</li>
+    <li><strong>Capital</strong> - Set your state capital</li>
+    <li><strong>U.S. Senator</strong> - Choose one of your state's senators</li>
+    <li><strong>U.S. Representative</strong> - Select your representative</li>
+  </ul>
+  
+  <div class="feature-highlight">
+    Once set, these personalized answers will appear in your flash cards, making your preparation more relevant and memorable. This feature is always available - no upgrade needed!
+  </div>
+  
+  <h3 class="subsection-title">Pro Version</h3>
+  <p>Looking for more advanced features? Check out our full version with additional study modes and comprehensive test preparation tools.</p>
+  
+  <h3 class="subsection-title">Preferences</h3>
+  <ul>
+    <li><strong>Enable Sounds</strong> - Toggle audio pronunciation on/off</li>
+    <li><strong>App Version</strong> - View current version information</li>
+  </ul>
+  
+  <h3 class="subsection-title">Support</h3>
+  <ul>
+    <li><strong>Help</strong> - Access this help guide</li>
+    <li><strong>Rate App</strong> - Rate us in the App Store</li>
+    <li><strong>Contact Us</strong> - Send feedback or get support</li>
+  </ul>
+</div>
+
+<div class="help-container">
+  <h2 class="section-title">Audio Features</h2>
+  
+  <p>Take advantage of audio features to improve pronunciation and listening skills.</p>
+  
+  <h3 class="subsection-title">Using Audio</h3>
+  <ul>
+    <li>Look for the speaker icon on each flash card</li>
+    <li>Tap to hear clear pronunciation of questions and answers</li>
+    <li>Audio available for all flash cards</li>
+    <li>Perfect for auditory learners and pronunciation practice</li>
+  </ul>
+  
+  <div class="tip">
+    <div class="tip-title">Audio Tip</div>
+    During the actual citizenship test, questions will be read aloud. Practice listening to the audio versions to get comfortable with the pace and pronunciation.
+  </div>
+</div>
+
+<div class="help-container">
+  <h2 class="section-title">Test Day Preparation</h2>
+  
+  <h3 class="subsection-title">What to Expect</h3>
+  <ul>
+    <li>You'll be asked up to 10 civics questions</li>
+    <li>You must answer 6 correctly to pass</li>
+    <li>Questions cover all topics in this app</li>
+    <li>The officer will stop once you answer 6 correctly</li>
+  </ul>
+  
+  <h3 class="subsection-title">Final Preparation Tips</h3>
+  <ol>
+    <li><strong>Study all 100 questions</strong> - Use the flash cards regularly</li>
+    <li><strong>Shuffle frequently</strong> - Don't just memorize the order</li>
+    <li><strong>Use state-specific answers</strong> - Set up your state information in Settings</li>
+    <li><strong>Practice with audio</strong> - Get used to hearing questions read aloud</li>
+    <li><strong>Stay calm and confident</strong> - You've prepared well!</li>
+  </ol>
+  
+  <div class="feature-highlight">
+    <strong>Remember:</strong> This app contains all 100 official USCIS civics questions. Master these, and you'll be ready for your citizenship test!
+  </div>
+</div>
+
+<div class="help-container">
+  <h2 class="section-title">Frequently Asked Questions</h2>
+  
+  <h3 class="subsection-title">Q: How many questions are on the actual test?</h3>
+  <p>A: You'll be asked up to 10 questions, and you need to answer 6 correctly to pass.</p>
+  
+  <h3 class="subsection-title">Q: Are these the real test questions?</h3>
+  <p>A: Yes! This app contains all 100 official USCIS civics questions that could appear on your test.</p>
+  
+  <h3 class="subsection-title">Q: Do I need to memorize all 100 questions?</h3>
+  <p>A: Yes, you should study all questions since you won't know which 10 will be selected for your test.</p>
+  
+  <h3 class="subsection-title">Q: What if I don't know my representative?</h3>
+  <p>A: Use the app's settings to look up and set your state's representatives. This information will be used in your study materials.</p>
+  
+  <h3 class="subsection-title">Q: Can I use this app offline?</h3>
+  <p>A: Yes! All flash cards work without an internet connection.</p>
+</div>
+
+<div class="help-container">
+  <h2 class="section-title">Good Luck!</h2>
+  
+  <p>You're taking an important step toward becoming a U.S. citizen. With consistent study using this app, you'll be well-prepared for your civics test.</p>
+  
+  <div class="feature-highlight">
+    <strong>Need more help?</strong> Contact us through the Settings tab if you have questions or need additional support. We're here to help you succeed!
+  </div>
+  
+  <p style="text-align: center; font-style: italic; color: #666; margin-top: 2rem;">
+    Best wishes on your journey to U.S. citizenship!
+  </p>
+</div>
+
+</body>
+</html>
